@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BoardController {
 	@GetMapping("/listBoard")
 	public String BoardController() {
-		System.out.println("1");
+		System.out.println("2");
 		return "게시물 목록!!!!!!!!!!!!!!!!!!!";
 	}
 }
