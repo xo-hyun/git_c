@@ -8,6 +8,7 @@ public class MemberController {
 	
 	@GetMapping("/listMember")
 	public String listMember() {
+		System.out.println("2");
 		return "회원목록";
 	}
 }
